@@ -11,9 +11,10 @@ body {
   border-collapse: collapse;
   height: 320px;
   margin: auto;
+  table-layout:fixed;
   max-width: 100%;
   padding:5px;
-  width: 100%;
+  width: 95%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   animation: float 5s infinite;
 }
@@ -140,7 +141,7 @@ td.daytime {
 .textnote
 {
   color:#1b1e24;
-  text-align:left;
+  text-align:justify;
   font-size:14px;       
 }
 /*** Table Styles **/
@@ -195,4 +196,26 @@ li a:hover:not(.active) {
     width: 100%;
     text-align: center;
     font-size: 18px;
+}
+
+/* gallery */
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
