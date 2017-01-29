@@ -1,6 +1,10 @@
 /** Font */
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 .w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
+h4{
+  color: #333;;
+  text-align: center;
+}
 body {
     background-color: #EEEEE0;
 }
@@ -204,7 +208,7 @@ div.img {
     margin: 5px;
     border: 1px solid #FFFFFF;
     float: left;
-    width: 250px;
+    width: 225px;
 }
 
 div.img:hover {
@@ -221,4 +225,14 @@ div.desc {
     padding: 15px;
     text-align: center;
     background-color:#FFFFFF ;
+}
+
+div.picme {
+  height: 320;
+  width: 200;
+  margin: auto;
+}
+
+footer { 
+    display: block;
 }
