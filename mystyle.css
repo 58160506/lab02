@@ -2,7 +2,7 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 .w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
 h4{
-  color: #333;;
+  color: #FFFFFF;;
   text-align: center;
 }
 body {
@@ -235,4 +235,12 @@ div.picme {
 
 footer { 
     display: block;
+}
+
+div.box {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #4CAF50;
+    margin: auto;
+    background: #333
 }
